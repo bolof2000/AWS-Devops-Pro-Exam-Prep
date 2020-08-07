@@ -1,0 +1,15 @@
+code build timeout - 5mins to 8hours
+lambda timeout in 15 mins
+the Buildspec.yml contains the steps to building your application
+install - packages
+pre-build
+build - your test to ensure application passed in build phase 
+post-build - create artifats, logs to cloudwatch 
+
+CodeDeploy:
+Iam role should be created to grant access to CodeDeploy to fetch files from S3 bucket
+
+to configure your AWS cli:
+create a security key from User IAM 
+on terminal :
+aws configure --profile name_profile

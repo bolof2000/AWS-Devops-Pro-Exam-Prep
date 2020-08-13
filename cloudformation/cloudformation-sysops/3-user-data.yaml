@@ -23,6 +23,7 @@ Resources:
           systemctl start httpd
           systemctl enable httpd
           echo "Hello World from user data" > /var/www/html/index.html
+          echo "bolofinde olusegun added" > /var/www/html/index.html
 
   # our EC2 security group
   SSHSecurityGroup:

@@ -35,6 +35,7 @@ Resources:
               content: |
                 <h1>Hello World from EC2 instance!</h1>
                 <p>This was created using cfn-init</p>
+                <p> This is Olusegun</p>
               mode: '000644'
           commands:
             hello:

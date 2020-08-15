@@ -1,7 +1,7 @@
 Parameters:
   SSHKey:
     Type: AWS::EC2::KeyPair::KeyName
-    Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
+    Description: Names of an existing EC2 KeyPair to enable SSH access to the instance
   
 Resources:
   myStack:
@@ -11,9 +11,9 @@ Resources:
       Parameters:
         KeyName: !Ref SSHKey
         DBName: "mydb"
-        DBUser: "user"
+        DBUser: "user1"
         DBPassword: "pass"
-        DBRootPassword: "passroot"
+        DBRootPassword: "passroot1"
         InstanceType: t2.micro
         SSHLocation: "0.0.0.0/0"
 

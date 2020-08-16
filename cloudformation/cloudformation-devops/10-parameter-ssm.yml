@@ -11,11 +11,13 @@ Parameters:
     Default: /EC2/AMI_ID
 
 Resources:
-  # this instance will be automatically updated 
-  # when we change the parameter in SSM ourselves
-  # and then run the CloudFormation template
+
   MyInstanceWithParameters:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: !Ref ImageId
       InstanceType: !Ref InstanceType
+      
+  # this instance will be automatically updated 
+  # when we change the parameter in SSM ourselves
+  # and then run the CloudFormation template

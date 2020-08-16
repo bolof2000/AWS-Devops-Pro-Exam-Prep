@@ -47,6 +47,7 @@ Resources:
           def handler(event, context):
             # Call S3 to list current buckets
             response = s3.list_buckets()
+            print(response)
 
             # Get a list of all bucket names from the response
             buckets = [bucket['Name'] for bucket in response['Buckets']]

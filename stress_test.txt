@@ -1,0 +1,16 @@
+  773  ls
+  774  cd ..
+  775  ls
+  776  cd ..
+  777  ls
+  778  cd CICD_website
+  779  ls
+  780  ls
+  781  chmod 400 NVirginiakeypair.pem
+  782  ssh -i "NVirginiakeypair.pem" ec2-user@ec2-54-144-202-112.compute-1.amazonaws.com
+  783  ssh -i "NVirginiakeypair.pem" ec2-user@ec2-54-144-202-112.compute-1.amazonaws.com
+  784  ^[[200~ssh -i "NVirginiakeypair.pem" ec2-user@ec2-34-207-118-159.compute-1.amazonaws.com
+  785  ls
+  786  ssh -i "NVirginiakeypair.pem" ec2-user@ec2-34-207-118-159.compute-1.amazonaws.com\n
+  787  ls
+  788  history

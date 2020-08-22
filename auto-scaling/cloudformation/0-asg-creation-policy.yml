@@ -12,12 +12,12 @@ Resources:
           Ref: "AWS::Region"
       LaunchConfigurationName:
         Ref: LaunchConfig
-      DesiredCapacity: '3'
+      DesiredCapacity: '2'
       MinSize: '1'
-      MaxSize: '4'
+      MaxSize: '3'
     CreationPolicy:
       ResourceSignal:
-        Count: '3'
+        Count: '2'
         Timeout: PT15M
 
   LaunchConfig:

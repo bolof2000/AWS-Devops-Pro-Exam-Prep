@@ -12,7 +12,7 @@ The following areas are fully covered with scripts and configurations:
     <li>Testing code at the code Build stage</li>
     <li>Managing Build artifacts</li>
     <l1>Code Deploy using Codedeploy feature of AWS</li>
-    </li>Code Pipeline to orchestrate the entire Build-test-deploy process of your code</li> 
+    <li>Code Pipeline to orchestrate the entire Build-test-deploy process of your code</li> 
     <li>Codestart to quickly let you get started with deployment of your code</li>
     </ul>
 </div>

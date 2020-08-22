@@ -2,9 +2,8 @@
 <p>
 This repo contains content for each sections of the AWS -Devops Professional Exam. 
 The following areas are fully covered with scripts and configurations:
-<div>
 <h2>SDLC Automation</h2>:
-
+<div>
     <ul>
     <li>Code Repository Using Codecommit feature of AWS</li>
      <li>Creating IAM policy to manage branches access</li>

@@ -2,7 +2,7 @@
 <p>
 This repo contains content for each sections of the AWS -Devops Professional Exam. 
 The following areas are fully covered with scripts and configurations:
-<h2>SDLC Automation</h2>:
+<h2>SDLC Automation</h2>
 <div>
     <ul>
     <li>Code Repository Using Codecommit feature of AWS</li>
